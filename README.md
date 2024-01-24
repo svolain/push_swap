@@ -1,7 +1,7 @@
 # Push_Swap 42
 
 This project is meant to sort data on a stack, with a limited set of instructions, using
-the lowest possible number of actions. In order for the project to it has to manipulate various types of algorithms and use the most appropriate solution (out of many) for an
+the lowest possible number of actions. In order for the project to work it has to manipulate various types of algorithms and use the most appropriate solution (out of many) for an
 optimized data sorting.
 
 You have at your disposal a set of integer values, 2 stacks, and a set of instructions
@@ -9,7 +9,8 @@ to manipulate both stacks.
 
 ## Instructions
 
-The set of instructions that the program is allowed to use in order to sort the data, using two stacks (stack a & stack b). The purpose is to have the data sorted into stack a from smallest to biggest integer.
+The purpose is to have the data sorted from smallest to biggest integer.
+The set of instructions that the program is allowed to use in order to sort the data:
 
 sa (swap a): Swap the first 2 elements at the top of stack a.
             Do nothing if there is only one or no elements.
